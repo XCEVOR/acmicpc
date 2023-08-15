@@ -43,7 +43,7 @@ public class Main {
                 // 세 개씩 묶고 남은 유제품이 2개인 경우, 두 제품의 가격을 더하여 추가
                 totalCost += prices[i] + prices[i - 1];
             } else {
-                // 남은 유제품이 3개 이상인 경우, 가장 저렴한 2개의 제품 가격을 더하여 추가
+                // 남은 유제품이 3개 이상인 경우, 가장 저렴한 제품 가격을 빼고 추가
                 totalCost += prices[i] + prices[i - 1];
             }
         }
