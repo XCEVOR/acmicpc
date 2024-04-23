@@ -14,7 +14,7 @@ public class Main {
             int n = Integer.parseInt(st.nextToken()); // 상근이가 가지고 있는 CD의 수
             int m = Integer.parseInt(st.nextToken()); // 선영이가 가지고 있는 CD의 수
             
-            // 입력의 마지막 줄인 0 0 경우 반복 종료
+            // 입력의 마지막 줄이 0 0 인 경우 반복 종료
             if (n == 0 && m == 0) break;
             
             HashMap<Integer, Boolean> map = new HashMap<>(); // CD 번호를 저장할 해시맵
