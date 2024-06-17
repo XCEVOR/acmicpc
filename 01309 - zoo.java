@@ -44,3 +44,15 @@ public class Main {
     return (dp[N][0] + dp[N][1] + dp[N][2]) % MOD;
   }
 }
+
+
+
+/*
+
+input
+77
+
+output
+9304
+
+*/
