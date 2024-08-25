@@ -16,7 +16,7 @@ public class Main {
     System.out.println(missingPrice);
   }
   
-  public static int findMissingBookPrice(int totalPrice, int[] knownPrices) {
+  private static int findMissingBookPrice(int totalPrice, int[] knownPrices) {
     int sumOfKnownPrices = 0;
     for (int price : knownPrices) {
       sumOfKnownPrices += price;
