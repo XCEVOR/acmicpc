@@ -34,3 +34,11 @@ public class Main {
     return totalSquares;
   }
 }
+
+
+
+/*
+
+한강 작가님 노벨문학상 수상을 진심으로 축하합니다.
+
+*/
