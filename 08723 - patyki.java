@@ -36,3 +36,21 @@ public class Main {
     }
   }
 }
+
+
+
+/*
+
+Problem
+Bajtuś found 3 sticks in the forest. Now he wants to know if he can build a right triangle or an equilateral triangle with them. Bajtuś cannot break the sticks, he can only use them in their entirety.
+
+Input
+The first line of input contains three integers ( a, b, c ) (1 ≤ ( a, b, c ) ≤ 1000), representing the lengths of the first, second, and third sticks, respectively.
+
+Output
+The first and only line of output should contain a single number:
+0 - if Bajtuś cannot build either a right triangle or an equilateral triangle,
+1 - if Bajtuś can build only a right triangle,
+2 - if Bajtuś can build only an equilateral triangle.
+
+*/
